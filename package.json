@@ -1,0 +1,25 @@
+{
+    "name": "gof",
+    "version": "0.0.1",
+    "description": "Typescript examples for GOF patterns",
+    "scripts": {
+        "compile": "tsc",
+        "test": "./node_modules/.bin/mocha --compilers ts:ts-node/register ./test/*.spec.ts"
+    },
+    "author": "Felipe Teixeira",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.5",
+        "chai": "^4.2.0",
+        "del": "^3.0.0",
+        "gulp": "^4.0.0",
+        "gulp-mocha": "^6.0.0",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-typescript": "^5.0.0",
+        "gulp-util": "^3.0.8",
+        "mocha": "^5.2.0",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.2.2"
+    }
+}
